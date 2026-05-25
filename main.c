@@ -7,7 +7,7 @@
 #include "funcoes.h"
 
 int main(){
-    SetConsoleTitle("PowerShell");
+    SetConsoleTitle("PowerSell");
     system("mode con: cols=80 lines=30");
     int confirmacao;
     MYSQL *conn = mysql_init(NULL);
