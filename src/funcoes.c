@@ -296,7 +296,7 @@ void menu(MYSQL *conn)
 
         system("cls");
 
-        printf("\n-----SISTEMA DE MERCADO-----\n");
+        printf("\n---------POWER-SELL---------\n");
         printf("--------MENU INICIAL--------\n");
         printf("[1] - Adicionar novo Produto\n");
         printf("[2] - Listar Produtos\n");
