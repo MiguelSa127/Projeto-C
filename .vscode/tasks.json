@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C Portable MySQL",
+            "type": "shell",
+            "command": "C:\\gcc\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "src/main.c",
+                "src/funcoes.c",
+                "resource.o",
+                "-o",
+                "PowerSell.exe",
+                "-I",
+                "${workspaceFolder}\\mysql\\include",
+                "-L",
+                "${workspaceFolder}\\mysql\\lib",
+                "-lmysql"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
